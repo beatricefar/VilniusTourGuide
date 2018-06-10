@@ -6,14 +6,14 @@ public class Attraction {
     private String attractionName;
     private String location;
     private String description;
-    private int price;
+    private boolean isFree;
 
-    public Attraction(String attractionName, int imageId, String location, String description, int price) {
+    public Attraction(String attractionName, int imageId, String location, String description, boolean isFree) {
         this.imageId = imageId;
         this.attractionName = attractionName;
         this.location = location;
         this.description = description;
-        this.price = price;
+        this.isFree = isFree;
     }
 
     public int getImageId() {
@@ -32,8 +32,6 @@ public class Attraction {
         return description;
     }
 
-    public int getPrice() {
-        return price;
-    }
+    public boolean getPrice() { return isFree; }
 
 }

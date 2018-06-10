@@ -3,4 +3,49 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="kgb_museum_desc">The Museum of Genocide Victims is arguably the darkest in Vilnius.
+        The museum is divided into two parts – the upper two floors document the Lithuanian partisans’ resistance against the Soviet occupiers, the deportations of Lithuanians to Siberia and day-to-day life in the LTSR.
+        \n The other part of the museum are the prison cells, and execution and torture chambers in the basement.
+        Chillingly, the cells are exactly how the KGB officers left them upon leaving Lithuania in 1991.</string>
+    <string name="money_museum_desc">
+        The Museum started its activity 16 years ago, and at the end of 2010 it opened its door on the corner of Gediminas Avenue and Totorių Street.
+        Here, in five halls located on two floors, visitors can become acquainted with the history of world currencies and banking, the currency of Lithuania.
+        \n Expositions abound in interactive educational tools, thematic films and games.
+    </string>
+    
+    <string name="national_museum_desc">
+        The National Museum of Lithuania is the largest depository of Lithuanian historical cultural heritage in the country.
+        It is the oldest museum in Lithuania, dating back to 1855, when the Museum of Antiquities was established in Vilnius.
+        \n Authentic exhibits help to recall the history of Lithuania and its national culture and customs.
+    </string>
+    
+    <string name="illusions_museum_desc">
+        It’s fascinating. It’s fun. It’s sure to be surprising.
+        \n Basically that’s all you need to know about this fabulous museum.
+    </string>
+
+    <string name="national_art_gallery_desc">
+        The National Art Gallery is a modern multifunctional centre of art and culture seeking to enter into a dialogue with the public.
+        Visitors become acquainted with a permanent exposition (presenting Lithuanian modern and contemporary painting, sculpture, graphics, photography, objects, installations, and video art), changing exhibitions, and take part in cultural events, lectures and educational programmes.
+        The Gallery also has the largest archive that provides information about the Lithuanian artists of the 20th – 21st century and a library-reading-room.
+    </string>
+
+    <string name="applied_arts_museum_desc">
+        The Museum of Applied Arts and Design is established in the Old Arsenal reconstructed in 1987, which in the middle of the 16th century was mentioned as one of the buildings of the Lower Castle.
+        Archaeological investigations into the Old Arsenal carried out in 1972–1978 uncovered the brick wall and the quadrangular tower of the middle of the 14th century the remains of which can be seen upon entering the Museum.
+        Exhibitions are mounted, educational programmes are presented, concerts are performed at the Museum.
+    </string>
+
+    <string name="grand_dukes_palace_museum_desc">
+        The reconstructed Palace of the Grand Dukes of Lithuania, the former political, diplomatic, cultural center of the State, was one of the most famous in Europe in the 15th-17th centures and was demolished in the beginning of the 19th century.
+        This Palace is excellent located just in the heart of Vilnius, within the confines of Lower Castle.
+    </string>
+
+    <string name="telia_museum_desc">
+        All you need is Nonmuseum and just 15 minutes of your time to get to know Vilnius history.
+        History does not hide behind a dusty glass here.
+        For this once, a time travel will happen around you.
+        Sit back and enjoy lasers and projections reviving the most iconic moments of Vilnius history: city’s triumphs and tragedies, architectural masterpieces, the most famous works of art that were created by the local artists and the most intriguing stories of our townspeople.
+    </string>
 </resources>

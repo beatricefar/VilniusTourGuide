@@ -38,10 +38,10 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         location.setText(currentAttraction.getLocation());
 
         TextView price = (TextView) listItemView.findViewById(R.id.price);
-        if (currentAttraction.getPrice() == 0){
-            price.setText("Price: Free");
+        if (currentAttraction.getPrice()){
+            price.setText("Admission: Free");
         } else {
-            price.setText("Price: " + currentAttraction.getPrice());
+            price.setText("Admission: Paid");
         }
 
         return listItemView;
