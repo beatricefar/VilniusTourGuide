@@ -1,6 +1,9 @@
 package com.beatricefarias.vilniustourguide;
 
-public class Attraction {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class Attraction implements Parcelable{
 
     private int imageId;
     private String attractionName;
@@ -15,6 +18,40 @@ public class Attraction {
         this.description = description;
         this.isFree = isFree;
     }
+
+    protected Attraction(Parcel in) {
+        imageId = in.readInt();
+        attractionName = in.readString();
+        location = in.readString();
+        description = in.readString();
+        isFree = in.readByte() != 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(imageId);
+        dest.writeString(attractionName);
+        dest.writeString(location);
+        dest.writeString(description);
+        dest.writeByte((byte) (isFree ? 1 : 0));
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    public static final Creator<Attraction> CREATOR = new Creator<Attraction>() {
+        @Override
+        public Attraction createFromParcel(Parcel in) {
+            return new Attraction(in);
+        }
+
+        @Override
+        public Attraction[] newArray(int size) {
+            return new Attraction[size];
+        }
+    };
 
     public int getImageId() {
         return imageId;

@@ -1,34 +1,55 @@
 <resources>
-    <string name="app_name">VilniusTourGuide</string>
+    <string name="app_name">Vilnius View</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Museum list names-->
+
+    <string name="kgb_museum_name">KGB Museum</string>
+    <string name="money_museum_name">Money museum</string>
+    <string name="national_museum_name">National Museum of Lithuania</string>
+    <string name="illusions_museum_name">Museum of Illusions</string>
+    <string name="national_art_gallery_name">National Gallery of Art</string>
+    <string name="applied_arts_museum_name">Museum of Applied Arts and Design</string>
+    <string name="grand_dukes_palace_museum_name">Palace of The Grand Dukes of Lithuania</string>
+    <string name="telia_museum_name">Telia Nonmuseum</string>
+
+    <!--Museum list locations-->
+
+    <string name="kgb_museum_location">Aukų g. 2A</string>
+    <string name="money_museum_location">Totorių g. 2 / 8</string>
+    <string name="national_museum_location">Arsenalo g. 1</string>
+    <string name="illusions_museum_location">Vokiečių g. 6</string>
+    <string name="national_art_gallery_location">Konstitucijos pr. 22</string>
+    <string name="applied_arts_museum_location">Arsenalo g. 3A</string>
+    <string name="grand_dukes_palace_museum_location">Katedros a. 4</string>
+    <string name="telia_museum_location">Vokiečių g. 4</string>
+
+    <!--Museum list descriptions-->
 
     <string name="kgb_museum_desc">The Museum of Genocide Victims is arguably the darkest in Vilnius.
         The museum is divided into two parts – the upper two floors document the Lithuanian partisans’ resistance against the Soviet occupiers, the deportations of Lithuanians to Siberia and day-to-day life in the LTSR.
-        \n The other part of the museum are the prison cells, and execution and torture chambers in the basement.
+        \n\nThe other part of the museum are the prison cells, and execution and torture chambers in the basement.
         Chillingly, the cells are exactly how the KGB officers left them upon leaving Lithuania in 1991.</string>
     <string name="money_museum_desc">
         The Museum started its activity 16 years ago, and at the end of 2010 it opened its door on the corner of Gediminas Avenue and Totorių Street.
         Here, in five halls located on two floors, visitors can become acquainted with the history of world currencies and banking, the currency of Lithuania.
-        \n Expositions abound in interactive educational tools, thematic films and games.
+        \n\nExpositions abound in interactive educational tools, thematic films and games.
     </string>
-    
+
     <string name="national_museum_desc">
         The National Museum of Lithuania is the largest depository of Lithuanian historical cultural heritage in the country.
         It is the oldest museum in Lithuania, dating back to 1855, when the Museum of Antiquities was established in Vilnius.
-        \n Authentic exhibits help to recall the history of Lithuania and its national culture and customs.
+        \n\nAuthentic exhibits help to recall the history of Lithuania and its national culture and customs.
     </string>
-    
+
     <string name="illusions_museum_desc">
         It’s fascinating. It’s fun. It’s sure to be surprising.
-        \n Basically that’s all you need to know about this fabulous museum.
+        \n\nBasically that’s all you need to know about this fabulous museum.
     </string>
 
     <string name="national_art_gallery_desc">
         The National Art Gallery is a modern multifunctional centre of art and culture seeking to enter into a dialogue with the public.
         Visitors become acquainted with a permanent exposition (presenting Lithuanian modern and contemporary painting, sculpture, graphics, photography, objects, installations, and video art), changing exhibitions, and take part in cultural events, lectures and educational programmes.
-        The Gallery also has the largest archive that provides information about the Lithuanian artists of the 20th – 21st century and a library-reading-room.
+        \n\nThe Gallery also has the largest archive that provides information about the Lithuanian artists of the 20th – 21st century and a library-reading-room.
     </string>
 
     <string name="applied_arts_museum_desc">
@@ -48,4 +69,204 @@
         For this once, a time travel will happen around you.
         Sit back and enjoy lasers and projections reviving the most iconic moments of Vilnius history: city’s triumphs and tragedies, architectural masterpieces, the most famous works of art that were created by the local artists and the most intriguing stories of our townspeople.
     </string>
+
+    <!--Viewpoints list names-->
+
+    <string name="three_crosses_hill_name">Three Crosses Monument</string>
+
+    <string name="gediminas_castle_name">Gedimina\'s Castle</string>
+    <string name="st_johns_church_name">Campanile of St. John\'s Church</string>
+    <string name="television_tower_name">Television Tower</string>
+    <string name="bastion_hill_name">Bastion Hill</string>
+    <string name="cathedral_bell_tower_name">Vilnius Cathedral Bell Tower</string>
+    <string name="subaciaus_street_view_name">Panoramic View from Subačiaus Street</string>
+    <string name="taurakalnis_name">Taurakalnis</string>
+
+    <!--Viewpoints list locations-->
+
+    <string name="three_crosses_hill_location">T. Kosciuškos g.</string>
+    <string name="gediminas_castle_location">Arsenalo g. 5</string>
+    <string name="st_johns_church_location">Šv. Jono g. 12</string>
+    <string name="television_tower_location">Sausio 13-osios g. 10</string>
+    <string name="bastion_hill_location">Bokšto g. 20</string>
+    <string name="cathedral_bell_tower_location">Katedros a. 1</string>
+    <string name="subaciaus_street_view_location">Subačiaus g.</string>
+    <string name="taurakalnis_location">V. M.Putino g.</string>
+
+    <!--Viewpoints list descriptions-->
+
+    <string name="three_crosses_hill_desc">
+        Some say, that the origins of the three crosses date back to the 17th century when three monks placed them there to pay tribute to a group of fellow monks who were martyred in the 14th century.
+        According to the history books, seven monks were killed and seven were tied to wooden crosses and floated down the Neris River, with the instruction to return to the west where they came from.
+
+        \n\nThe monument has changed many times, and the current one was built by the architect and sculptor, A. Vivulskis in 1989 at the beginning of the Rebirth movement.
+        It was built to replace the one that had been removed by the Soviet authorities in the 1950s, pieces of which still remain on the far side of the slope.
+    </string>
+
+    <string name="gediminas_castle_desc">
+        The Vilnius Castle Museum was opened in 1960, and in 1968 it became a subdivision of the Lithuanian National Museum.
+        The exposition of the Vilnius Castle Museum displays reconstruction models of Vilnius castles of the second part of the 14th and the beginning of the 17th centuries, armament, iconographic material of old Vilnius.
+        An observation deck on the top of the tower is the best place from which to appreciate a magnificent panorama of Vilnius.
+    </string>
+
+    <string name="st_johns_church_desc">
+        The exclusive panoramic view of Vilnius can be admired from the highest building in the Old Town – the campanile of St. John’s Church (68 m).
+        Having climbed 193 authentic wooden stairs, the view of the Old Town and spanless distances of Vilnius can be admired as if from the bird’s eye view.
+        A modern lift is installed in the historical campanile for visitors to access the overlook site in the height of 45 m.
+
+        \n\nVisitors are usually fascinated by Foucault’s Pendulum demonstrating the effect of rotation of the Earth.
+        The socket of pendulum entrenchment is installed on the second floor of campanile tower.
+        From a special platform, it is possible to watch how the pendulum swings and how a ball of weight of some tens of kilograms hung on a thin cable moves around over a marble dial base.
+        During the day, the swinging ball changes its position and imitates the rotation of the Earth.
+    </string>
+
+    <string name="television_tower_desc">
+        The Vilnius Television Tower is the tallest building in Lithuania at 326.5 metres high, and is an immediately recognisable fixture on the cityscape.
+        \n\nLocated in the in Vilnius’ Northeastern microdistrict of Karoliniškės, the Television Tower played host to the January Events; events that took place in January 1991 as Lithuania fought for its independence from the Soviet Union.
+        \n\nDuring the affair, 14 unarmed Lithuanian civilians were killed, while another 700 were injured as Soviet troops seized the tower.
+        A small museum dedicated to them is on the ground floor and crosses in their memory are by the main entrance.
+    </string>
+
+    <string name="bastion_hill_desc">
+        This is part of the Vilnius Defensive Wall, often called “barbican”. The Bastion is a Renaissance-style fortification characterised by its original construction.
+        It consists of a tower installed in the city defence wall, underground gun ports and a connecting corridor, which turns into a 48-metre long tunnel.
+        \n\nThe Bastion was built in the first half of the 17th century by the German military engineer, Friedrich Getkant.
+        The Bastion was severely damaged during the wars with Moscow in the middle of the 17th century. During World Wars I and II, German military arsenals were located in the building.
+        You can enjoy a picturesque view of the Old Town from the Bastion terrace.
+    </string>
+
+    <string name="cathedral_bell_tower_desc">
+        The Bell Tower, one of the oldest and tallest towers of the Old Town, offers a beautiful panorama.
+        Residents and guests of Vilnius will be able to see exposition of bells, the old clock of the city, explore the historic pictures of the reconstruction of Bell Tower and the Cathedral.
+        \n\nVideo surveillance cameras installed on the top floor of the Bell Tower will help the visitors to get acquainted with the city panorama and famous architectural sights.
+        The height of the Bell Tower is 52 m, with the cross – 57 meters.
+    </string>
+
+    <string name="subaciaus_street_view_desc">
+        On the corner of Subačiaus Street and Maironio Street, you will find a panoramic viewpoint.
+        Take a look around! Here you can enjoy the most beautiful panorama of Užupis and Old Town.
+        An information stand set up at the scenic viewpoint for your convenience will help you spot the churches of the Old Town.
+    </string>
+
+    <string name="taurakalnis_desc">
+        The top of Tauras Hill provides a magnificent view of Vilnius with the buildings of the 19-20th architecture on this side of the river and many-storeyed buildings of the new city centre on the other.
+        The hill is girded by the bustling Pamėnkalnio Street.
+
+        \n\nTauras Hill is a popular place among citizens, especially young people.
+        School-leavers often come here to meet the sunrise after their graduation party and romantic people climb the hill to admire sunsets and the city by night.
+        In winter time, people come here with snowboards and sleds.
+    </string>
+
+    <!--Places list names-->
+
+    <string name="pilies_street_name">Pilies Street</string>
+    <string name="gediminas_avenue_name">Gediminas Avenue</string>
+    <string name="st_anne_church_name">Church of St Anne</string>
+    <string name="presidential_palace_name">Presidential Palace</string>
+    <string name="uzupis_name">Užupis</string>
+    <string name="vilnius_university_name">Vilnius University</string>
+    <string name="bastion_city_wall_name">The Bastion of Vilnius City Wall</string>
+    <string name="town_hall_name">Vilnius Town Hall</string>
+
+    <!--Places list locations-->
+
+    <string name="pilies_street_location">Pilies g.</string>
+    <string name="gediminas_avenue_location">Gedimino pr.</string>
+    <string name="st_anne_church_location">Maironio g. 8</string>
+    <string name="presidential_palace_location">S. Daukanto a. 3</string>
+    <string name="uzupis_location">Užupio g.</string>
+    <string name="vilnius_university_location">Universiteto g. 3</string>
+    <string name="bastion_city_wall_location">Bokšto g. 20</string>
+    <string name="town_hall_location">Didžioji g. 31</string>
+
+    <!--Places list descriptions-->
+
+    <string name="pilies_street_desc">
+        Pilies Street is the oldest and most flamboyant street in the Old Town of Vilnius.
+        The street appeared in place of the former road from Vilnius Castle to the south, towards Poland and Russia.
+        This was the main road to the castle, with its branches finally turning into side streets.
+        The name of Pilies Street was mentioned in historical annals as early as 1530.
+
+        \n\nKings, legates of the Pope, and envoys from other countries passed this street on their way to the castle.
+        Noblemen and rich citizens built their houses in Pilies Street.
+        Vilnius University occupied a whole quarter of the city beside Pilies Street, and university professors used to live there.
+    </string>
+
+    <string name="gediminas_avenue_desc">
+        Vilnius started developing faster in the middle of the 19th century, when the rail line St. Petersburg – Vilnius was built.
+        New industrial, trading and residential developments were established next to the Old Town.
+        A new central street of the city, Georgij Avenue was built.
+        \n\nThe names of the avenue changed with the change of authorities.
+        Later on the avenue had the names of A. Mickiewicz, Stalin, Lenin, and in 1989 it was known as Gediminas Avenue.
+        Buildings of the 19th and 20th centuries were built next to the avenue, currently housing central government authorities and public institutions, trading and catering companies.
+        Gediminas Avenue connects the historical city center, Cathedral Square with the Seimas Palace.
+    </string>
+
+    <string name="st_anne_church_desc">
+        The church of St Anne is a masterpiece of the late Gothic period.
+        There is no nonsensus about its originator or its construction period.
+        Popular legend has it that Napoleon Bonaparte, who was fascinated by the beauty of the church, wanted to take it back to Paris in the palm of his hand.
+        Unfortunately, the reality is not that romantic: during the march of the Napoleonic army through Lithuania, the church was consigned to the French cavalry forces.
+        However, Napoleon did mention in a letter to his wife that „Vilnius is a very beautiful city“.
+
+        \n\nSt Anne’s Church, which has survived to the present day without changing for over 500 years, has become a symbol of Vilnius.
+        At a closer look, one can see the letters A and M in the main facade of St Anne‘s.
+        The letters A and M could stand for the Latin Ana Mater Maria or Ave Maria, i.e. „Saint Anne – Mother of Mary“ or „Hail Mary“.
+        Some experts claim that the Pillars of Gediminas have been highlighted in the composition of the facade with the three towers of the church corresponding to the three pillars.
+    </string>
+
+    <string name="presidential_palace_desc">
+        The Presidential Palace, called “Prezidentūra” (President’s Office) in everyday life, was built in the square of Simonas Daukantas (a graduate of Vilnius University and the author of the first history of Lithuania published in the Lithuanian language in the 19th century).
+
+        \n\nWhichever way you chose to approach Daukanto Square, a narrow street will suddenly broaden and blend into the square predominated by a Classical building from the end of the 18th and the beginning of the 19th century: a former nobleman’s house and the present-day Office of the President.
+        The grandeur of the square is somewhat allayed by the Baroque towers above the roof of the palace.
+
+        \n\nHere follows some information about the Presidential Palace. From the 16th century it served as a residence for Vilnius bishops.
+        In the 18th century, when Lithuania was occupied and annexed to the Russian Empire, the palace served as a residence for the Governor General of Vilnius. Russian Tsar Alexander I, French King Louis XVIII, Emperor Napoleon Bonaparte, and Polish Marshall and statesman Jozef Pilsudski visited the palace.
+    </string>
+
+    <string name="uzupis_desc">
+        The self-proclaimed “Republic” of Užupis is Vilnius’ Bohemian and artistic district.
+        It has its own anthem, constitution, president, bishop, two churches, the Bernadine Cemetery – one of the oldest in the city -, seven bridges, and its own guardian called The Bronze Angel of Užupis, who was put in the centre of the district in 2002.
+
+        \n\nDating back to the 16th century, Užupis is one of Vilnius’ oldest districts and despite its current prestigious status, was formerly the city’s poorest area and home to a number of manual workers and a red light-district.
+
+        \n\nDuring the Soviet era, the authorities let Užupis go to ruin, and it quickly gained notoriety as the roughest districts in the city.
+        Since Lithuania regained its independence in 1991, artists came and took advantage of the cheap accommodation, and moreover, the city’s art academy is located across the bridge from Bernadinų Gardens.
+        Now its thriving creative community hosts regular fashion festivals, concerts, exhibitions and poetry evenings.
+    </string>
+
+    <string name="vilnius_university_desc">
+        One of the oldest universities in Central Europe, Vilnius University was founded in the 16th century while Europe – and of course Lithuania – was in the grips of the Protestant Reformation movement.
+        Catholic monks, Jesuits, were called to stop the spread of the movement and were asked to take over education policy. In 1569 they established a college and just 10 years later, the University of Vilnius was born.
+
+        \n\nAfterwards, the campuses of VU were built and as a result, all feature Gothic, Baroque and Classical styles of architecture, and the main building’s medieval exterior is a stark contrast to its lively student atmosphere.
+
+        \n\nThere are 13 internal courtyards, plus arcades and galleries, which give even more vibrancy to things. Moreover, the courtyards are named after famous figures – graduates and professors – from the university and they are commemorated on a number of plaques in the Grand Courtyard.
+    </string>
+
+    <string name="bastion_city_wall_desc">
+        This is part of the Vilnius Defensive Wall, often called “barbican”.
+        The Bastion is a Renaissance-style fortification characterised by its original construction.
+        It consists of a tower installed in the city defence wall, underground gun ports and a connecting corridor, which turns into a 48-metre long tunnel.
+        The Bastion was built in the first half of the 17th century by the German military engineer, Friedrich Getkant.
+        The Bastion was severely damaged during the wars with Moscow in the middle of the 17th century.
+        During World Wars I and II, German military arsenals were located in the building.
+        You can enjoy a picturesque view of the Old Town from the Bastion terrace.
+    </string>
+
+    <string name="town_hall_desc">
+        In 1387, Lithuania became a Christian state and Vilnius was granted Magdeburg rights.
+        Thus, there appeared a need for headquarters for the city authorities.
+        As the main square of the city was located here, it was decided to build the Town Hall in the same place.
+        The building housed the magistrate (in other words, the city councillors) as well as court rooms, the treasury, archives, an arms and ammunition warehouse, and rooms for preserving standards of measurement.
+        A prison was established in the basement.
+
+        \n\nThe Town Hall building was Gothic to begin with and changed with time.
+        The Town Hall was reconstructed for the last time by the architect Laurynas Stuoka-Gucevičius at the end of the 18th century.
+        During that reconstruction, the Town Hall turned into a Classical building.
+        In the 19th century, the Town Hall was transformed into a city theatre where a famous personality – Polish composer Stanisław Moniuszko – conducted the premier of his opera.
+        Among all the Polish composers, only Frederic Chopin could be considered more prominent than Moniuszko
+    </string>
+
 </resources>

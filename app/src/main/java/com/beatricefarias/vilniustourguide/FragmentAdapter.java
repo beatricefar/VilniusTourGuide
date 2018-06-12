@@ -6,6 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.beatricefarias.vilniustourguide.fragments.MuseumFragment;
+import com.beatricefarias.vilniustourguide.fragments.PlacesFragment;
+import com.beatricefarias.vilniustourguide.fragments.ViewpointsFragment;
 
 public class FragmentAdapter extends FragmentPagerAdapter{
 
@@ -19,9 +21,9 @@ public class FragmentAdapter extends FragmentPagerAdapter{
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new MuseumFragment();
+            return new PlacesFragment();
         } else if (position == 1) {
-            return new MuseumFragment();
+            return new ViewpointsFragment();
         } else {
             return new MuseumFragment();
         }

@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -29,7 +30,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         Attraction currentAttraction = getItem(position);
 
         ImageView attractionImage = (ImageView) listItemView.findViewById(R.id.image);
-        attractionImage.setImageResource(R.drawable.vilnius_lt_logo);
+        attractionImage.setImageResource(currentAttraction.getImageId());
 
         TextView attractionName = (TextView) listItemView.findViewById(R.id.attraction_name);
         attractionName.setText(currentAttraction.getAttractionName());
@@ -46,4 +47,5 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         return listItemView;
     }
+
 }
