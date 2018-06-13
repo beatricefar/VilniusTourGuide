@@ -15,7 +15,10 @@
     <string name="about_desc">This app is about Vilnius, the capital of Lithuania.
         \n\nThis app was made for non-comercial, educational purposes.
         I do not own or claim copyrights for the images and descriptions.
-        This app was created purely for educational purposes.</string>
+        This app was created purely for educational purposes.
+
+        \n\nMost of information is obtained from http://www.vilnius-tourism.lt/en/ and the rest is from the Internet.
+    </string>
 
     <!--Categories-->
 
