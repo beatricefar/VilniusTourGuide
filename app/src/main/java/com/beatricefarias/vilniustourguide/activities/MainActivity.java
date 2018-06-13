@@ -19,15 +19,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        // Get the ViewPager and set it's PagerAdapter so that it can display items
+        // Gets ViewPager and sets it's FragmentAdapter so that it can display items
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(new FragmentAdapter(MainActivity.this, getSupportFragmentManager()));
 
-        // Give the TabLayout the ViewPager
+        // Gives the TabLayout the ViewPager
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
     }
 
+    /**
+     * Inflates options menu with menu_main_activity items.
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main_activity, menu);
@@ -35,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Delegates what happens when each option is selected in app menu
+     * Method which tells what happens when each option is selected in app menu.
      * @param item
      * @return
      */

@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Vilnius View</string>
 
+    <!--Activity names-->
+
+    <string name="about_activity_name">About</string>
+
+    <!--Other app values-->
+
+    <string name="admission_free">Admission: Free</string>
+    <string name="admission_paid">Admission: Paid</string>
+
     <!--Categories-->
 
     <string name="category_places">Places</string>

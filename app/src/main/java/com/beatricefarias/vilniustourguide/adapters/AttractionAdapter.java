@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.beatricefarias.vilniustourguide.Attraction;
+import com.beatricefarias.vilniustourguide.Constants;
 import com.beatricefarias.vilniustourguide.R;
 
 import java.util.ArrayList;
@@ -43,11 +44,10 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         TextView price = (TextView) listItemView.findViewById(R.id.price);
         if (currentAttraction.getPrice()){
-            price.setText("Admission: Free");
+            price.setText(R.string.admission_free);
         } else {
-            price.setText("Admission: Paid");
+            price.setText(R.string.admission_paid);
         }
-
         return listItemView;
     }
 

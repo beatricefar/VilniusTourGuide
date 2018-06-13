@@ -17,15 +17,10 @@ import com.beatricefarias.vilniustourguide.R;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class PlacesFragment extends Fragment {
 
 
-    public PlacesFragment() {
-        // Required empty public constructor
-    }
+    public PlacesFragment() { }
 
 
     @Override
@@ -83,13 +78,8 @@ public class PlacesFragment extends Fragment {
         headerImage.setImageResource(R.drawable.places_header);
 
         attractionList.setAdapter(adapter);
-
         attractionList.setOnItemClickListener(new AttractionListOnClickListener(getActivity(), places));
 
         return rootView;
     }
-
-
-
-
 }

@@ -14,8 +14,14 @@ public class AboutActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        setTitle("About");
+        setTitle(R.string.about_activity_name);
     }
+
+    /**
+     * Method to set up back button
+     * @param item
+     * @return selected item
+     */
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

@@ -17,15 +17,10 @@ import com.beatricefarias.vilniustourguide.Constants;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class MuseumFragment extends Fragment {
 
 
-    public MuseumFragment() {
-        // Required empty public constructor
-    }
+    public MuseumFragment() { }
 
 
     @Override
@@ -83,15 +78,8 @@ public class MuseumFragment extends Fragment {
         headerImage.setImageResource(R.drawable.museums_header);
 
         attractionList.setAdapter(adapter);
-
         attractionList.setOnItemClickListener(new AttractionListOnClickListener(getActivity(), museums));
-
-
 
         return rootView;
     }
-
-
-
-
 }

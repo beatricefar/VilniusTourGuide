@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 public class AttractionListOnClickListener implements AdapterView.OnItemClickListener{
 
-    Context context;
+    private Context context;
     private ArrayList<Attraction> attractionList;
 
     public AttractionListOnClickListener(Context context, ArrayList<Attraction> attractionList) {
@@ -19,12 +19,20 @@ public class AttractionListOnClickListener implements AdapterView.OnItemClickLis
         this.context = context;
     }
 
+    /**
+     * Method which overrides onItemClick method
+     * @param adapterView
+     * @param view
+     * @param position
+     * @param l
+     */
+
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
         position -= 1;
         Attraction currentAttraction = attractionList.get(position);
         Intent intent = new Intent(context, AttractionActivity.class);
-        intent.putExtra("attraction", currentAttraction);
+        intent.putExtra(Constants.ATTRACTION_PARCEABLE, currentAttraction);
         context.startActivity(intent);
     }
 }

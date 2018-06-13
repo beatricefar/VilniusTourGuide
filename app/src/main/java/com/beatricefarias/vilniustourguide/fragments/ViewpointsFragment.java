@@ -17,15 +17,10 @@ import com.beatricefarias.vilniustourguide.R;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class ViewpointsFragment extends Fragment {
 
 
-    public ViewpointsFragment() {
-        // Required empty public constructor
-    }
+    public ViewpointsFragment() { }
 
 
     @Override
@@ -88,8 +83,4 @@ public class ViewpointsFragment extends Fragment {
 
         return rootView;
     }
-
-
-
-
 }

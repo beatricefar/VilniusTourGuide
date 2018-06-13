@@ -4,17 +4,17 @@ import android.content.Intent;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.beatricefarias.vilniustourguide.Attraction;
+import com.beatricefarias.vilniustourguide.Constants;
 import com.beatricefarias.vilniustourguide.R;
 
 public class AttractionActivity extends AppCompatActivity {
 
-    String attractionIsCalled = null;
+    private String attractionIsCalled = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +25,14 @@ public class AttractionActivity extends AppCompatActivity {
         setTitle(attractionIsCalled);
     }
 
+    /**
+     * Method which sets information for attraction activity.
+     */
+
     public void setCurrentAttraction(){
+
         Intent attractionIntent = getIntent();
-        Attraction selectedAttraction = (Attraction) attractionIntent.getParcelableExtra("attraction");
+        Attraction selectedAttraction = (Attraction) attractionIntent.getParcelableExtra(Constants.ATTRACTION_PARCEABLE);
 
         attractionIsCalled = selectedAttraction.getAttractionName();
 
@@ -42,15 +47,20 @@ public class AttractionActivity extends AppCompatActivity {
 
         TextView attractionFee = (TextView) findViewById(R.id.attraction_fee);
         if (selectedAttraction.getPrice()){
-            attractionFee.setText("Admission: Free");
+            attractionFee.setText(getString(R.string.admission_free));
         } else {
-            attractionFee.setText("Admission: Paid");
+            attractionFee.setText(R.string.admission_paid);
         }
 
         TextView attractionDescription = (TextView) findViewById(R.id.attraction_description);
         attractionDescription.setText(selectedAttraction.getDescription());
-
     }
+
+    /**
+     * Method to set up back button
+     * @param item
+     * @return selected item
+     */
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
