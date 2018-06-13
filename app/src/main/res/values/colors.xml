@@ -6,4 +6,5 @@
     <color name="splashBackground">#bf262b</color>
     <color name="listItemBackground">#f0f0e6</color>
     <color name="tabTextColor">#e0b0ab</color>
+    <color name="textColor">#403635</color>
 </resources>

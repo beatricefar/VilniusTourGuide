@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import com.beatricefarias.vilniustourguide.R;
 import com.beatricefarias.vilniustourguide.fragments.MuseumFragment;
 import com.beatricefarias.vilniustourguide.fragments.PlacesFragment;
+import com.beatricefarias.vilniustourguide.fragments.RestaurantFragment;
 import com.beatricefarias.vilniustourguide.fragments.ViewpointsFragment;
 
 public class FragmentAdapter extends FragmentPagerAdapter{
@@ -25,14 +26,16 @@ public class FragmentAdapter extends FragmentPagerAdapter{
             return new PlacesFragment();
         } else if (position == 1) {
             return new ViewpointsFragment();
-        } else {
+        } else if (position == 2) {
             return new MuseumFragment();
+        } else {
+            return new RestaurantFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
@@ -45,6 +48,8 @@ public class FragmentAdapter extends FragmentPagerAdapter{
                 return context.getString(R.string.category_viewpoints);
             case 2:
                 return context.getString(R.string.category_museums);
+            case 3:
+                return context.getString(R.string.category_restaurants);
             default:
                 return null;
         }

@@ -16,7 +16,7 @@
             android:layout_height="200dp"
             android:background="@color/colorPrimaryDark"
             android:scaleType="centerCrop"
-            android:src="@drawable/vilnius_lt_logo" />
+            android:src="@drawable/gediminas_avenue" />
 
         <TextView
             android:id="@+id/attraction_name"
@@ -25,8 +25,8 @@
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="26dp"
-            android:paddingBottom="20dp"
-            android:text="The attraction name"
+            android:paddingBottom="12dp"
+            android:text="@string/gediminas_avenue_name"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="26sp"
             android:textStyle="bold"
@@ -38,7 +38,6 @@
             android:id="@+id/locaction_icon"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_marginEnd="12dp"
             android:src="@drawable/ic_location"
             app:layout_constraintStart_toStartOf="@id/attraction_name"
             app:layout_constraintTop_toBottomOf="@id/attraction_name" />
@@ -47,8 +46,10 @@
             android:id="@+id/attraction_location"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingBottom="6dp"
-            android:text="The location"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/textColor"
+            android:paddingBottom="12dp"
+            android:text="@string/gediminas_avenue_location"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="@id/attraction_name"
             app:layout_constraintStart_toEndOf="@id/locaction_icon"
@@ -59,8 +60,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp"
-            android:text="Fee"
+            android:text="@string/admission_free"
             android:textSize="16sp"
+            android:textColor="@color/textColor"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@id/attraction_name"
             app:layout_constraintStart_toStartOf="@id/attraction_name"
@@ -70,8 +72,9 @@
             android:id="@+id/attraction_description"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/textColor"
             android:paddingBottom="30dp"
-            android:text="This a description"
+            android:text="@string/gediminas_avenue_desc"
             app:layout_constraintEnd_toEndOf="@id/attraction_name"
             app:layout_constraintStart_toStartOf="@id/attraction_name"
             app:layout_constraintTop_toBottomOf="@id/attraction_fee" />

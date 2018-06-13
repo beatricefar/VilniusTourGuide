@@ -10,11 +10,61 @@
     <string name="admission_free">Admission: Free</string>
     <string name="admission_paid">Admission: Paid</string>
 
+    <!--About-->
+
+    <string name="about_desc">This app is about Vilnius, the capital of Lithuania.
+        \n\nThis app was made for non-comercial, educational purposes.
+        I do not own or claim copyrights for the images and descriptions.
+        This app was created purely for educational purposes.</string>
+
     <!--Categories-->
 
     <string name="category_places">Places</string>
     <string name="category_viewpoints">Viewpoints</string>
     <string name="category_museums">Museums</string>
+    <string name="category_restaurants">Food</string>
+
+    <!--Museum list names-->
+
+    <string name="snekutis_name">Šnekutis</string>
+    <string name="gastronomika_name">Gastronomika</string>
+    <string name="busi_trecias_name">Būsi Trečias</string>
+    <string name="ertlio_name">Ertlio Namas</string>
+    <string name="sofa_de_pancho_name">Sofa de Pancho</string>
+
+    <!--Museum list locations-->
+
+    <string name="snekutis_location">Šnekutis</string>
+    <string name="gastronomika_location">T. Ševčenkos g. 16i</string>
+    <string name="busi_trecias_location">Totorių g. 18</string>
+    <string name="ertlio_location">Šv. Jono g. 7</string>
+    <string name="sofa_de_pancho_location">Visų Šventųjų g. 5</string>
+
+    <!--Museum list descriptions-->
+
+    <string name="snekutis_desc">
+        One of those pubs where you can get real craft beer. Not to mention a big choice of meals to complement your beer.
+    </string>
+
+    <string name="gastronomika_desc">
+        A perfect place to discover new tastes. It might be not the most budget friendly, however the food speaks for itself.
+    </string>
+
+    <string name="busi_trecias_desc">
+        One of the friendliest and budget friendly pub.
+        Not only you will find tasty craft beer but also have great food experiences.
+    </string>
+
+    <string name="ertlio_desc">
+        Lithuanian historical cuisine is characterised by seasonality – people would serve the goods that could be picked in the kitchen-garden, hunted in the woods, caught in the river or lake.
+        Culinary fashion and tendencies of the time were also taken into consideration:
+        Lithuanian cuisine has always been open to culinary trends from Western or Southern Europe and national dishes of the newcomers who settled in Lithuania in the course of time have also been adopted.
+    </string>
+
+    <string name="sofa_de_pancho_desc">
+        Mexican style restaurant with great food and atmosphere.
+        Perfect place for those who want good quality food for reasonble price.
+    </string>
 
     <!--Museum list names-->
 
