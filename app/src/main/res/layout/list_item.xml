@@ -1,58 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="120dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/listItemBackground">
 
     <ImageView
         android:id="@+id/image"
         android:layout_width="150dp"
         android:layout_height="match_parent"
-        android:background="@color/splashBackground"
-        app:layout_constraintStart_toStartOf="parent"
-        android:scaleType="centerCrop"/>
+        android:background="@drawable/cathedral_bell_tower"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/attraction_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="gate of dawn"
-        android:textStyle="bold"
         android:layout_marginStart="16dp"
-        app:layout_constraintStart_toEndOf="@id/image"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="12dp"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:text="gate of dawn"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/locaction_icon"
         android:layout_width="16dp"
         android:layout_height="20dp"
         android:src="@drawable/ic_location"
-        app:layout_constraintTop_toBottomOf="@id/attraction_name"
-        app:layout_constraintStart_toStartOf="@id/attraction_name"/>
+        app:layout_constraintStart_toStartOf="@id/attraction_name"
+        app:layout_constraintTop_toBottomOf="@id/attraction_name" />
 
     <TextView
         android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Location: Ausros g. 1"
-        app:layout_constraintTop_toBottomOf="@id/attraction_name"
         app:layout_constraintStart_toEndOf="@id/locaction_icon"
-        />
+        app:layout_constraintTop_toBottomOf="@id/attraction_name" />
 
     <TextView
         android:id="@+id/price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Price: Free"
-        app:layout_constraintTop_toBottomOf="@id/location"
-        app:layout_constraintStart_toStartOf="@id/locaction_icon" />
-
-
+        app:layout_constraintStart_toStartOf="@id/locaction_icon"
+        app:layout_constraintTop_toBottomOf="@id/location" />
 
 
 </android.support.constraint.ConstraintLayout>

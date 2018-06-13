@@ -1,8 +1,11 @@
 package com.beatricefarias.vilniustourguide;
 
 import android.content.Intent;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -13,6 +16,7 @@ public class AttractionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_attraction);
         setCurrentAttraction();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     public void setCurrentAttraction(){
@@ -38,5 +42,15 @@ public class AttractionActivity extends AppCompatActivity {
         TextView attractionDescription = (TextView) findViewById(R.id.attraction_description);
         attractionDescription.setText(selectedAttraction.getDescription());
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

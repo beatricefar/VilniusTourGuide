@@ -1,81 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AttractionActivity">
-<android.support.constraint.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/attraction_header"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/vilnius_lt_logo"
-        android:background="@color/colorPrimaryDark"
-        android:scaleType="centerCrop"/>
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/attraction_name"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintTop_toBottomOf="@id/attraction_header"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:text="The attraction name"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        android:textColor="@color/colorPrimaryDark"
-        android:paddingBottom="20dp"/>
+        <ImageView
+            android:id="@+id/attraction_header"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimaryDark"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vilnius_lt_logo" />
 
-    <ImageView
-        android:id="@+id/locaction_icon"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginEnd="12dp"
-        android:src="@drawable/ic_location"
-        app:layout_constraintTop_toBottomOf="@id/attraction_name"
-        app:layout_constraintStart_toStartOf="@id/attraction_name"/>
+        <TextView
+            android:id="@+id/attraction_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="26dp"
+            android:paddingBottom="20dp"
+            android:text="The attraction name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/attraction_header" />
 
-    <TextView
-        android:id="@+id/attraction_location"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/attraction_name"
-        app:layout_constraintEnd_toEndOf="@id/attraction_name"
-        app:layout_constraintStart_toEndOf="@id/locaction_icon"
-        android:text="The location"
-        android:paddingBottom="6dp"/>
+        <ImageView
+            android:id="@+id/locaction_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_location"
+            app:layout_constraintStart_toStartOf="@id/attraction_name"
+            app:layout_constraintTop_toBottomOf="@id/attraction_name" />
 
-    <TextView
-        android:id="@+id/attraction_fee"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:paddingBottom="16dp"
-        app:layout_constraintTop_toBottomOf="@id/attraction_location"
-        app:layout_constraintEnd_toEndOf="@id/attraction_name"
-        app:layout_constraintStart_toStartOf="@id/attraction_name"
-        android:text="Fee" />
+        <TextView
+            android:id="@+id/attraction_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:text="The location"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@id/attraction_name"
+            app:layout_constraintStart_toEndOf="@id/locaction_icon"
+            app:layout_constraintTop_toBottomOf="@id/attraction_name" />
 
-    <TextView
-        android:id="@+id/attraction_description"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/attraction_fee"
-        app:layout_constraintEnd_toEndOf="@id/attraction_name"
-        app:layout_constraintStart_toStartOf="@id/attraction_name"
-        android:text="This a description"
-        android:paddingBottom="30dp"
-        />
+        <TextView
+            android:id="@+id/attraction_fee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Fee"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/attraction_name"
+            app:layout_constraintStart_toStartOf="@id/attraction_name"
+            app:layout_constraintTop_toBottomOf="@id/attraction_location" />
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:id="@+id/attraction_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:text="This a description"
+            app:layout_constraintEnd_toEndOf="@id/attraction_name"
+            app:layout_constraintStart_toStartOf="@id/attraction_name"
+            app:layout_constraintTop_toBottomOf="@id/attraction_fee" />
+
+    </android.support.constraint.ConstraintLayout>
 </ScrollView>
