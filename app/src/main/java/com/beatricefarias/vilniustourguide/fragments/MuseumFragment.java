@@ -3,6 +3,8 @@ package com.beatricefarias.vilniustourguide.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -64,21 +66,14 @@ public class MuseumFragment extends Fragment {
                 Constants.ATTRACTION_IS_PAID));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), museums);
-        ListView attractionList= rootView.findViewById(R.id.attraction_list);
+        RecyclerView attractionRecyclerView= (RecyclerView) rootView.findViewById(R.id.attraction_list);
 
-        //Add a header to list view
+        attractionRecyclerView.setAdapter(new AttractionAdapter(getActivity(), museums));
+        attractionRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
-        LayoutInflater layoutinflater = getLayoutInflater();
-        ViewGroup header = (ViewGroup)layoutinflater.inflate(R.layout.list_view_header, attractionList,false);
-        attractionList.addHeaderView(header, null, false);
-        header.setEnabled(false);
-        header.setOnClickListener(null);
+        ImageView header = (ImageView) rootView.findViewById(R.id.header);
+        header.setImageResource(R.drawable.museums_header);
 
-        ImageView headerImage = header.findViewById(R.id.header);
-        headerImage.setImageResource(R.drawable.museums_header);
-
-        attractionList.setAdapter(adapter);
-        attractionList.setOnItemClickListener(new AttractionListOnClickListener(getActivity(), museums));
 
         return rootView;
     }
