@@ -1,4 +1,4 @@
-package com.beatricefarias.vilniustourguide;
+package com.beatricefarias.vilniustourguide.activities;
 
 import android.content.Intent;
 import android.support.v4.app.NavUtils;
@@ -8,6 +8,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.beatricefarias.vilniustourguide.Attraction;
+import com.beatricefarias.vilniustourguide.R;
 
 public class AttractionActivity extends AppCompatActivity {
 

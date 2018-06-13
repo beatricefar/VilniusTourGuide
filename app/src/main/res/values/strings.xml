@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Vilnius View</string>
 
+    <!--Categories-->
+
+    <string name="category_places">Places</string>
+    <string name="category_viewpoints">Viewpoints</string>
+    <string name="category_museums">Museums</string>
+
     <!--Museum list names-->
 
     <string name="kgb_museum_name">KGB Museum</string>

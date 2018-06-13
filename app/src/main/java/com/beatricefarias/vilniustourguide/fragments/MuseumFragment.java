@@ -6,13 +6,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.beatricefarias.vilniustourguide.Attraction;
-import com.beatricefarias.vilniustourguide.AttractionAdapter;
+import com.beatricefarias.vilniustourguide.adapters.AttractionAdapter;
 import com.beatricefarias.vilniustourguide.AttractionListOnClickListener;
 import com.beatricefarias.vilniustourguide.R;
 import com.beatricefarias.vilniustourguide.Constants;
@@ -87,6 +85,8 @@ public class MuseumFragment extends Fragment {
         attractionList.setAdapter(adapter);
 
         attractionList.setOnItemClickListener(new AttractionListOnClickListener(getActivity(), museums));
+
+
 
         return rootView;
     }

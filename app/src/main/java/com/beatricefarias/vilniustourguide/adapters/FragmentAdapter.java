@@ -1,10 +1,11 @@
-package com.beatricefarias.vilniustourguide;
+package com.beatricefarias.vilniustourguide.adapters;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.beatricefarias.vilniustourguide.R;
 import com.beatricefarias.vilniustourguide.fragments.MuseumFragment;
 import com.beatricefarias.vilniustourguide.fragments.PlacesFragment;
 import com.beatricefarias.vilniustourguide.fragments.ViewpointsFragment;
@@ -29,9 +30,23 @@ public class FragmentAdapter extends FragmentPagerAdapter{
         }
     }
 
-
     @Override
     public int getCount() {
         return 3;
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        // Generate title based on item position
+        switch (position) {
+            case 0:
+                return context.getString(R.string.category_places);
+            case 1:
+                return context.getString(R.string.category_viewpoints);
+            case 2:
+                return context.getString(R.string.category_museums);
+            default:
+                return null;
+        }
     }
 }

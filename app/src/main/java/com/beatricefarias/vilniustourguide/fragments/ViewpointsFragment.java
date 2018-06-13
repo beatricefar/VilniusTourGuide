@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 
 import com.beatricefarias.vilniustourguide.Attraction;
-import com.beatricefarias.vilniustourguide.AttractionAdapter;
+import com.beatricefarias.vilniustourguide.adapters.AttractionAdapter;
 import com.beatricefarias.vilniustourguide.AttractionListOnClickListener;
 import com.beatricefarias.vilniustourguide.Constants;
 import com.beatricefarias.vilniustourguide.R;

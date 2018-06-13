@@ -1,4 +1,4 @@
-package com.beatricefarias.vilniustourguide;
+package com.beatricefarias.vilniustourguide.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,6 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.beatricefarias.vilniustourguide.Attraction;
+import com.beatricefarias.vilniustourguide.R;
 
 import java.util.ArrayList;
 

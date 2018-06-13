@@ -1,9 +1,11 @@
-package com.beatricefarias.vilniustourguide;
+package com.beatricefarias.vilniustourguide.activities;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.beatricefarias.vilniustourguide.R;
 
 public class SplashActivity extends AppCompatActivity {
 

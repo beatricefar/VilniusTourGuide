@@ -1,9 +1,11 @@
-package com.beatricefarias.vilniustourguide;
+package com.beatricefarias.vilniustourguide.activities;
 
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+
+import com.beatricefarias.vilniustourguide.R;
 
 public class AboutActivity extends AppCompatActivity {
 
