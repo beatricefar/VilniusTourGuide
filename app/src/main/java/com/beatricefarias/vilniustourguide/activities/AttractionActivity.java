@@ -14,17 +14,22 @@ import com.beatricefarias.vilniustourguide.R;
 
 public class AttractionActivity extends AppCompatActivity {
 
+    String attractionIsCalled = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_attraction);
         setCurrentAttraction();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle(attractionIsCalled);
     }
 
     public void setCurrentAttraction(){
         Intent attractionIntent = getIntent();
         Attraction selectedAttraction = (Attraction) attractionIntent.getParcelableExtra("attraction");
+
+        attractionIsCalled = selectedAttraction.getAttractionName();
 
         ImageView attractionHeader = (ImageView) findViewById(R.id.attraction_header);
         attractionHeader.setImageResource(selectedAttraction.getImageId());
